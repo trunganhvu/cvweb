@@ -63,6 +63,12 @@ body{
     font-size: small;
     margin-right: 20px;
 }
+@media screen and (max-width: 500px) {
+    .name .contact .contact-detail{
+        margin-right: 0px;
+        font-size: 9px;
+    }
+}
 .name .contact li{
     padding:5px 0;
     transform: translate(-40px);
